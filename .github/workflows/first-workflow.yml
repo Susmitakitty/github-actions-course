@@ -5,7 +5,7 @@ jobs:
   job-1:
     runs-on: ubuntu-latest
     steps:
-      - names: step one
+      - name: step one
         run: echo "Hello"
       - name: steo two
         run: echo "Bye"
